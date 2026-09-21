@@ -25,8 +25,7 @@ const maps = [{
         ["rock", "norm", "norm", "norm", "norm", "norm", "norm", "roid", "norm", "norm", "norm", "norm", "norm", "n_b2", "bas2"]
     ],
     "X_GRID": 15,
-    "Y_GRID": 15,
-    "BOTS": 25
+    "Y_GRID": 15
 }, {
     "mapName": "Frontline - Fourche7",
     "WIDTH": 5750,
@@ -49,8 +48,7 @@ const maps = [{
         ["n_b1", "norm", "norm", "norm", "norm", "roid", "norm", "norm", "norm", "norm", "n_b2"]
     ],
     "X_GRID": 11,
-    "Y_GRID": 11,
-    "BOTS": 25
+    "Y_GRID": 11
 }, {
     "mapName": "Catch22 - Fourche7",
     "WIDTH": 8750,
@@ -95,7 +93,6 @@ const maps = [{
         ["port", "norm", "norm", "norm", "norm", "norm", "norm", "n_b1", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "n_b2", "norm", "norm", "norm", "norm", "norm", "norm", "port"]
     ],
     "X_GRID": 27,
-    "Y_GRID": 21,
-    "BOTS": 25
+    "Y_GRID": 21
 }];
 maps[Math.random() * maps.length | 0];
