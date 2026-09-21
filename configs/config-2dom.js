@@ -95,7 +95,6 @@ const maps = [{
         ["port", "norm", "norm", "norm", "norm", "norm", "norm", "n_b1", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "n_b2", "norm", "norm", "norm", "norm", "norm", "norm", "port"]
     ],
     "X_GRID": 27,
-    "Y_GRID": 21,
-    "BOTS": 25
+    "Y_GRID": 21
 }];
 maps[Math.random() * maps.length | 0];
