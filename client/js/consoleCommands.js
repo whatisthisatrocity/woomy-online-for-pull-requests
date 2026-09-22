@@ -104,7 +104,7 @@ window["setChildren"] = function (amount) {
 	logger.info("Set your maxChildren to " + amount + ".");
 };
 window["teleport"] = function (x, y) {
-	if (isNaN(x) || isNaN(x)) return logger.warn("Please specify a valid (X, Y) position!");
+	if (isNaN(x) || isNaN(y)) return logger.warn("Please specify a valid (X, Y) position!");
 	socket.talk("D", 9, x, y);
 	logger.info("Teleported to (" + x + ", " + y + ").");
 };
