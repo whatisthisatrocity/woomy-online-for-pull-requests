@@ -29,7 +29,7 @@ window["help"] = function () {
 	logger.warn("To use any of the above commands, you need to have beta-tester level 2!");
 };
 window["broadcast"] = function (message, hex) {
-	if (!hex) hex = color.black;
+	if (!hex) hex = "#000000";
 	socket.talk("D", 0, message, hex);
 	logger.info("Broadcasting your message to all players.");
 };
