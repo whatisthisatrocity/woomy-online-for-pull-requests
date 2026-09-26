@@ -2716,7 +2716,9 @@ async function startServer(configSuffix, defExports, displyNameOverride, display
                 }
                 for (let key in my) {
                     if (key.startsWith("UPGRADES_TIER")) {
-                        my[key].forEach(add);
+                        for (const tank of my[key]){
+                            add(tank)
+                        }
                     }
                 }
             }
